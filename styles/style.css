@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body{
+    font-family: Cinzel, 'Times New Roman', Times, serif;
+    background-color: #EDE4E0;
+    margin: 0;
+}
+
+article {
+    
+    border: 2px dashed brown;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #6f7364;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    background-color: #bdc3c3;
+    border: 5px dashed #303037;
+}
+
+#welcome-img{
+    display: block;
+   width: 50%;
+    margin: auto;
+    border: 2px solid #6f7364;
+    box-shadow: 7px 5px 5px #6f7364;
+}
+#title1{
+    text-align: center;
+    background-color: #bdc3c3;
+    border: 5px dashed #303037;
+    padding: 10px;
+    grid-column: 1/4;
+}
+#title2{
+    text-align: center;
+    margin-top: 50px;
+}
+#sortTitle{
+    margin: 25px;
+    display: inline-block;
+}
+#sortBy{
+    margin: 25px;
+    padding: 5px;
+    font-family: Cinzel, 'Times New Roman', Times, serif;
+}
+#units{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+/*Media Query*/
+@media screen and (max-width: 900px) {
+    #units{
+        display: block;
+    }
+}
